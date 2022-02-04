@@ -2,12 +2,14 @@
 ### Input - All eight questions given in the assignment.
 ### Output - The right answer for the specific question.
 
+
 def welcome_assignment_answers(question):
     # Students do not have to follow the skeleton for this assignment.
     # Another way to implement is using a "case" statements similar to C.
-
+    global answer
+    global protocol_layer
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
-        answer ="mtls"
+        answer = "mtls"
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -20,11 +22,13 @@ def welcome_assignment_answers(question):
         answer = "42b76fe51778764973077a5a94056724"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
-    elif question == "What layer from the TCP/IP model the protocol DHCP belongs to?":
-        answer = "4"
+    if question == "What layer from the TCP/IP model the protocol DHCP belongs to?":
+        answer = 4
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
-        answer = "3"
-    return (answer)
+        answer = 3
+    return answer
+
+
 
 
 # Complete all the questions.
