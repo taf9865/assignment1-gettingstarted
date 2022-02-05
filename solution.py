@@ -15,8 +15,8 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "Yes"
-    # elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
-    # answer = "No"
+    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
+        answer = "No"
     # elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking'":
     # answer = "42b76fe51778764973077a5a94056724"
     # elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
@@ -43,8 +43,8 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question3))
     debug_question4 = "Is it possible to decode a message without a key? - Yes/No"
     print(welcome_assignment_answers(debug_question4))
-    # debug_question5 = "Is a hashed message supposed to be un-hashed? - Yes/No"
-    # print(welcome_assignment_answers(debug_question5))
+    debug_question5 = "Is a hashed message supposed to be un-hashed? - Yes/No"
+    print(welcome_assignment_answers(debug_question5))
     # debug_question6 = "What is the MD5 hashing value to the following message: NYU Computer Networking"
     # print(welcome_assignment_answers(debug_question6))
     # debug_question7 = "Is MD5 a secured hashing algorithm? - Yes/No"
