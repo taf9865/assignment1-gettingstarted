@@ -7,7 +7,8 @@ def welcome_assignment_answers(question):
     # Students do not have to follow the skeleton for this assignment.
     # Another way to implement is using a "case" statements similar to C.
 
-    if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+    if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted " \
+                   "by a TA?":
         answer = "mtls"
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
@@ -24,7 +25,7 @@ def welcome_assignment_answers(question):
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to?":
         answer = 5
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
-        answer = 3
+        answer = 4
     else:
         answer = "No other answers"
     return answer
@@ -35,7 +36,8 @@ def welcome_assignment_answers(question):
 
 if __name__ == "__main__":
     # use this space to debug and verify that the program works
-    debug_question1 = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
+    debug_question1 = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel " \
+                      "posted by a TA? "
     print(welcome_assignment_answers(debug_question1))
     debug_question2 = "Are encoding and encryption the same? - Yes/No"
     print(welcome_assignment_answers(debug_question2))
