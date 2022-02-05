@@ -11,8 +11,8 @@ def welcome_assignment_answers(question):
         answer = "mtls"
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
-    # elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-    # answer = "No"
+    elif question == "Is it possible to decrypt a message without a key? - Yes/No":
+        answer = "No"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "Yes"
     # elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
@@ -39,8 +39,8 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question1))
     debug_question2 = "Are encoding and encryption the same? - Yes/No"
     print(welcome_assignment_answers(debug_question2))
-    # debug_question3 = "Is it possible to decrypt a message without a key? - Yes/No"
-    # print(welcome_assignment_answers(debug_question3))
+    debug_question3 = "Is it possible to decrypt a message without a key? - Yes/No"
+    print(welcome_assignment_answers(debug_question3))
     debug_question4 = "Is it possible to decode a message without a key? - Yes/No"
     print(welcome_assignment_answers(debug_question4))
     # debug_question5 = "Is a hashed message supposed to be un-hashed? - Yes/No"
