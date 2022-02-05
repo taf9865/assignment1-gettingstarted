@@ -17,14 +17,14 @@ def welcome_assignment_answers(question):
         answer = "Yes"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
-    # elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking'?":
-    # answer = "42b76fe51778764973077a5a94056724"
+    elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking'?":
+        answer = "42b76fe51778764973077a5a94056724"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to?":
         answer = 5
-    # elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
-    # answer = 4
+    elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
+        answer = 4
     else:
         answer = "No other answer"
     return answer
@@ -45,14 +45,14 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question4))
     debug_question5 = "Is a hashed message supposed to be un-hashed? - Yes/No"
     print(welcome_assignment_answers(debug_question5))
-    # debug_question6 = "What is the MD5 hashing value to the following message: 'NYU Computer Networking'?"
-    # print(welcome_assignment_answers(debug_question6))
+    debug_question6 = "What is the MD5 hashing value to the following message: 'NYU Computer Networking'?"
+    print(welcome_assignment_answers(debug_question6))
     debug_question7 = "Is MD5 a secured hashing algorithm? - Yes/No"
     print(welcome_assignment_answers(debug_question7))
     debug_question8 = "What layer from the TCP/IP model the protocol DHCP belongs to?"
     print(welcome_assignment_answers(debug_question8))
-    # debug_question9 = "What layer of the TCP/IP model the protocol TCP belongs to?"
-    # print(welcome_assignment_answers(debug_question9))
+    debug_question9 = "What layer of the TCP/IP model the protocol TCP belongs to?"
+    print(welcome_assignment_answers(debug_question9))
 
 ###Questions:
 ###"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?" -1
